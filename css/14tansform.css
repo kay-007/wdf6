@@ -1,0 +1,97 @@
+.div1{
+	width: 200px;
+	height: 80px;
+	background: yellow;
+	transform: rotate(90deg);
+}
+
+.div2{
+	width: 200px;
+	height: 80px;
+	background: blue;
+	transform: rotate(-45deg);
+}
+
+.div3{
+	width: 200px;
+	height: 80px;
+	background: red;
+	transform: rotateX(50deg);
+}
+
+.div4{
+	width: 200px;
+	height: 80px;
+	background: pink;
+	transform: rotateY(50deg);
+}
+
+.div5{
+	width: 200px;
+	height: 80px;
+	background: green;
+
+	/*default 1*/
+	transform: scale(0.5);
+}
+
+.div6{
+	width: 200px;
+	height: 80px;
+	background: green;
+
+	transform: skew(50deg);
+}
+
+.div7{
+	width: 200px;
+	height: 80px;
+	background: green;
+
+
+			/*default x*/
+			/*current position*/
+	transform: translate(50%);
+	/*transform: translate(-50%);*/
+	/*transform: translate(100%);*/
+	/*transform: translate(-100%);*/
+	/*transform: translate(200px);*/
+
+	/*transform: translateY(50%);*/
+}
+
+.country{
+	font-size: 16px;
+
+	/*Vendors Prifx Properties*/
+	-webkit-appearance: none;  /* chrome safri opera -o- , internet explorer -ms-*/
+	-moz-appearance: none; /*mozila firefox*/
+	appearance: none;
+
+	padding: 10px 25px 10px 10px;
+	background-image: url(../img/arrow.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position-x: 90%;
+}
+
+h1{
+	text-align: center;
+}
+
+p.text{
+	text-align: center;
+	color: red;
+}
+
+@media(max-width: 600px){
+	h1{
+		font-size: 25px;
+		color: blue;
+	}
+
+	p.text{
+		color: green;
+	}
+}

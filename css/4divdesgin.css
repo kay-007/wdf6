@@ -1,0 +1,73 @@
+ .firstdiv{
+	width: 200px;
+	height: 100ps;
+	/*background-color: green;*/
+	/*background-color: rgba(40,80,127,1.00);*/
+
+	/*background: blue;*/
+	background: rgba(40,80,127,1.00);
+	color: blue;
+}
+
+.seconddiv{
+	width: 500px;
+	height: 500px;
+	/*background-image: url("../img/cover/bg1.jpg");*/
+	background: url("../img/cover/bg1.jpg");
+	color: white;
+
+	/*background-repeat: no-repeat;*/
+	/*background-repeat: repeat;*/
+	background-repeat: repeat-x;
+	/*background-repeat: repeat-y;*/
+	background-position: center;
+
+	/*border: 2px;
+	border-style: solid;
+	border-color: red;*/
+
+	border: 2px solid green;
+
+
+}
+
+.div3{
+	width: 500px;
+	height: 300px;
+	/*border: 2px solid red;*/
+
+	/*color: white;*/
+	/*background: linear-gradient(red,green,blue,orange);*/
+	/*background-color: linear-gradient(red,green,blue,orange);*/
+	/*background-image: linear-gradient(red,green,blue,orange);*/
+
+	/*background: linear-gradient(
+		45deg,
+		orange,
+		green,
+		red
+		);*/
+
+
+	/*background: radial-gradient(green,blue,red);*/
+
+	background: linear-gradient(
+		yellow 33%,
+		green 0% 66%,
+		red 0%
+
+		);
+}
+
+.divfour{
+	width: 300px;
+	height: 300px;
+	
+	color: white;
+
+	background: linear-gradient(rgba(145,16,127,0.5),rgba(173,10,127,0.5)), url("../img/cover/bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}

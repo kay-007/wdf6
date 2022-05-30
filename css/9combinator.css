@@ -1,0 +1,111 @@
+/*Tag to Tags*/
+/*div span{
+	color: red;
+}*/
+
+
+/*Tags to Tag*/
+/*div span p{
+	color: blue;
+}*/
+
+/*Tag to Class*/
+
+/*div .address{
+	color: blue;
+}*/
+
+/*Multi Tags To Class*/
+
+/*div span .name{
+	color: red;
+}*/
+
+/*Multi Tags to Same Class*/
+
+/*div span small.name{
+	color: red;
+}*/
+
+/*Multi class to class*/
+
+/*.bank .money .currency{
+	color: red;
+}*/ 
+
+/*Tag to Multi class*/
+
+/*div .name .age{
+	color: red;
+}*/
+
+/*Class to Tag*/
+
+/*.container p{
+	color: red;
+}*/
+
+/*Class to Multi Tags*/
+
+/*.container b span{
+	color: blueviolet;
+}*/
+
+/*Same Class*/
+
+/*.mobile.jpn{
+	color: red;
+}
+
+.mobile.china{
+	color: green;
+}
+
+.mobile.us{
+	color: blue;
+}*/
+
+/*Class to Same Class*/
+
+/*.vehicle .car.jpn{
+	color: red;
+}
+
+.vehicle .car.cn{
+	color: blue;
+}*/
+
+/*Class to tag by gp selector*/
+
+/*.div1 p, .div1 b{
+	color: red;
+}*/
+
+
+/*Child Selector ( > ) (သားသမီး)*/
+
+ /*.div2 > p{
+ 	color: red;
+ }*/
+
+ /*Sibling Selector ( 2 types )*/
+ /*(i) General sibling selector ( ~)(မောင်နှမ)*/
+
+ /*.div4 ~ i{
+ 	color: red;
+ }
+
+ .div4 ~ p{
+ 	color: yellow;
+ }*/
+
+
+ /*(ii) Adjcent Sibling Selector ( + ) (ကပ်လျက်မောင်နှမ)*/
+
+/* .div9 + b{
+ 	color: red;
+ }*/
+
+
+
+ 

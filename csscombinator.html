@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Combinator</title>
+	<link rel="stylesheet" type="text/css" href="css/9combinator.css">
+</head>
+<body>
+	
+	<h4>Tag to Tag</h4>
+	<div>
+		<span>i am span tag inside of div > span</span>
+	</div> 
+	<div>i am div tag outside of div</div>
+	<span>i am span tag outside of div</span>
+
+	<hr/>
+
+	<h4>Tags to Tag</h4>
+	<div>
+		<span>
+			<p>i am p tag of div > span > p</p>
+		</span>
+	</div>
+
+	<div>
+		<p>i am p tag inside of div > p</p>
+	</div>
+
+	<span>
+		<p>i am p tag inside of span > p</p>
+	</span>
+
+	<hr/>
+
+	<h4>Tag to class</h4>
+
+	<div>
+		<p class="address">i am p tag inside of div > p(address)</p>
+		<span>
+			<b class="address">i am b tag inside of div > span > b(address)</b>
+		</span>
+	</div>
+
+	<p class="address">i am p tag outside of div > p(address(</p>
+	<span>
+		<b class="address">i am b tag outside of div > span > b(address)</b>
+	</span>
+
+	<hr/>
+
+	<h4>Multi Tags to Class</h4>
+
+	<div>
+		<span>
+			<small class="name">i am small tag</small>
+		</span>
+		<p class="name">i am p tag</p>
+		<p>i am p tag</p>
+	</div>
+
+	<hr/>
+
+	<h4>Mlti Tag to Same Class</h4>
+
+	<div>
+		<span>
+			<small class="name">i am small tag</small>
+		</span>
+		<p class="name">i am p</p>
+		<p>i am p</p>
+	</div>
+
+	<hr/>
+
+	<h4>Multi Class to Class</h4>
+	<div class="bank">
+		<b>i am b tag</b><br/>
+		<span class="money">
+			<b class="currency">i am b tag 2</b>
+		</span>
+	</div>
+
+	<hr/>
+
+	<h4>Tags to Multi Class</h4>
+
+	<div>
+		<p class="name">i am p tag</p>
+		<span class="name">
+			<b class="age">i am b tag</b>
+		</span>
+	</div>
+
+	<hr/>
+
+	<h4>Class to Tag</h4>
+
+	<div class="container">
+		<p>i am p tag</p>
+		<b>i am b tag</b>
+	</div>
+
+	<hr/>
+
+	<h4>Class to Multi Tags</h4>
+
+	<div class="container">
+		<p>i am p tag</p>
+		<b>
+			<span>i am span tag</span>
+		</b>
+	</div>
+
+	<hr/>
+
+	<h4>Same Class</h4>
+
+	<div>
+		<ul>
+			<li class="mobile jpn">Sony</li>
+			<li class="mobile china">Mi</li>
+			<li class="mobile us">Iphone</li>
+		</ul>
+	</div>
+
+	<hr/>
+
+	<h4>Class to Same Class</h4>
+
+	<div class="vehicle">
+		<ul>
+			<li class="car jpn">Toyota</li>
+			<li class="car cn">Suzuki</li>
+			<li class="car indo">Madaza</li>
+		</ul>
+	</div>
+
+	<hr/>
+
+	<h4>Class to Tags by gp selector</h4>
+
+	<div class="div1">
+		<p>i am p tag inside of div</p>
+		<b>i am b tag inside of div</b>
+	</div>
+
+	<hr/>
+
+	<h4>Child Selector</h4>
+
+	<div class="div2">
+		<b>i am b tag indide of div b1</b>
+		<p>i am p tag indide of div</p>
+		<i>i am i tag indide of div</i>
+
+		<div class="div3">
+			<b>i am b tag indide of div b2</b>
+			<p>i am p tag indide of div</p>
+			<i>i am i tag indide of div</i>
+		</div>
+
+		<p>i am p tag</p>
+
+	</div>
+
+		<b>i am b tag outside of div b3</b>
+		<p>i am p tag outside of div</p>
+		<i>i am i tag outside of div</i>
+
+	<hr/>
+
+	<h4>General sibling selector</h4>
+
+	<div class="div4">
+		<b>i am b tag indide of div b1</b>
+		<p>i am p tag indide of div p1</p>
+		<i>i am i tag indide of div i1</i>
+
+		<div class="div5">
+			<b>i am b tag indide of div b2</b>
+			<p>i am p tag indide of div p2</p>
+			<i>i am i tag indide of div i2</i>
+		</div>
+
+		<b>i am b tag indide of div b3</b>
+		<p>i am p tag indide of div p3</p>
+		<i>i am i tag indide of div i3</i>
+	</div>
+
+	<div class="div6">
+		<b>i am b tag indide of div b4</b>
+		<p>i am p tag indide of div p4</p>
+		<i>i am i tag indide of div i4</i>
+	</div>
+
+	<b>i am b tag outside of div b5</b>
+	<p>i am p tag outside of div p5</p>
+	<i>i am i tag outside of div i5</i>
+
+	<br/>
+
+	<b>i am b tag outside of div b6</b>
+	<p>i am p tag outside of div p6</p>
+	<i>i am i tag outside of div i6</i>
+
+	
+
+
+
+	<hr/>
+
+	<h4>Adjcent sibling selector</h4>
+
+	<div class="div7">
+		<b>i am b tag indide of div b1</b>
+		<p>i am p tag indide of div p1</p>
+		<i>i am i tag indide of div i1</i>
+
+		<div class="div8">
+			<b>i am b tag indide of div b2</b>
+			<p>i am p tag indide of div p2</p>
+			<i>i am i tag indide of div i2</i>
+		</div>
+
+		<b>i am b tag indide of div b3</b>
+		<p>i am p tag indide of div p3</p>
+		<i>i am i tag indide of div i3</i>
+	</div>
+
+	<div class="div9">
+		<b>i am b tag indide of div b4</b>
+		<p>i am p tag indide of div p4</p>
+		<i>i am i tag indide of div i4</i>
+	</div>
+
+	<b>i am b tag outside of div b5</b>
+	<p>i am p tag outside of div p5</p>
+	<i>i am i tag outside of div i5</i>
+
+	<br/>
+
+	<b>i am b tag outside of div b6</b>
+	<p>i am p tag outside of div p6</p>
+	<i>i am i tag outside of div i6</i>
+
+
+
+</body>
+</html>

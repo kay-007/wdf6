@@ -1,0 +1,103 @@
+*{
+	cursor: pointer;
+}
+
+
+.borderstyle1{
+	border: solid;
+}
+
+.borderstyle2{
+	border: dotted;
+}
+
+.borderstyle3{
+	border: dashed;
+}
+
+.borderstyle4{
+	border: double;
+}
+
+.borderstyle5{
+	border: inset;
+}
+
+.borderstyle6{
+	border: outset;
+}
+
+.bddesgin{
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+
+	/*border-radius: 50%;*/
+	/*border-radius: 100%;*/
+
+	/*border-radius: 50px;*/
+
+	border-radius: 10px 50px;
+
+	/*border-radius: 10px 20px 50px 80px;*/
+
+
+}
+
+
+li{
+	/*list-style-type: square;*/
+	/*list-style-type: circle;*/
+	/*list-style-type: none;*/
+	/*list-style: none;*/
+
+
+	list-style-type: decimal;
+	/*list-style-type: decimal-leading-zero;*/
+
+	/*border: 1px solid red;*/
+
+	border: 1px;
+	border-style: solid;
+	border-color: red;
+
+	list-style-position: inside;
+	/*list-style-position: outside;*/
+
+}
+
+/*Attribute selectors*/
+
+input[type="text"],input[type="number"]{
+	width: 300px;
+	background-color: green;
+	color: #fff;
+	border-radius: 20px;
+}
+
+input[type="email"]{
+	width: 300px;
+	background-color: red;
+	color: #f4f4f4;
+	border-radius: 20px;
+}
+
+body{
+
+	background-image: url('../img/icons/icon1.webp');
+	background-repeat: no-repeat;
+
+	background-position: center;
+	/*background-position: right;*/
+	/*background-position: left;*/
+	/*background-position: top;*/
+	/*background-position: bottom;*/
+
+	/*background-position: right top;*/
+	/*background-position: left top;*/
+
+	/*background-position: right bottom;*/
+	background-position: left bottom;
+	
+
+}

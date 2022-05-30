@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Local Storage</title>
+</head>
+<body>
+
+
+	<script type="text/javascript">
+		
+		// Local Storage
+		// Create
+		localStorage.setItem("name","aung aung");
+		localStorage.setItem("age",27);
+		localStorage.setItem("city","Yangon");
+
+		// Read
+		// let getname1 = localStorage.getItem("name");
+		// console.log(getname1);
+		// let getage1 = localStorage.getItem("age");
+		// console.log(getage1);
+		// let getcity1 = localStorage.getItem("city");
+		// console.log(getcity1);
+
+		// Update
+		// Method 1
+		// localStorage.setItem("name","kyaw kyaw");
+		// Method 2
+		// localStorage.age = 30;
+
+		// Delete
+		// Method 1 (single)
+		// loaclStorage.removeItem("city");
+		// loaclStorage.removeItem("name");
+		// loaclStorage.removeItem("age");
+		// Method 2
+		// localStorage.clear(); 
+
+// ____________________________________________________________
+
+		// Session Storage
+
+		// Session Storage
+		// Create
+		sessionStorage.setItem("name","aung aung");
+		sessionStorage.setItem("age",27);
+		sessionStorage.setItem("city","Yangon");
+
+		// Read
+		// sessionStorage.getItem();
+		let getname1 = sessionStorage.getItem("name");
+		console.log(getname1);
+		let getage1 = sessionStorage.getItem("age");
+		console.log(getage1);
+		let getcity1 = sessionStorage.getItem("city");
+		console.log(getcity1);
+
+		
+		// Update
+		// sessionStorage.setItem();
+		// Method 1
+		// sessionStorage.setItem("name","kyaw kyaw");
+		// Method 2
+		// sessionStorage.age = 30;
+		
+
+		// sessionStorage.getItem();
+		// sessionStorage.removeItem();
+		// sessionStorage.clear();
+
+
+
+
+
+
+// 14LM
+
+	</script>
+
+</body>
+</html>
+
+<!-- cookies 			vs 			local storage 			vs 			session storage
+4kp 							5mb to 10mb 						5mb
+sv/br 							br 									br
+manual 							manual 								tab close
+all tabs 						all tabs 							private tab -->
